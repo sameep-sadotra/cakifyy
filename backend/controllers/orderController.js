@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //config variables
 const currency = "inr";
 const deliveryCharge = 40;
-const frontend_URL = 'https://dulcet-syrniki-81bff7.netlify.app/';
+const frontend_URL = 'https://cakifyy.netlify.app/';
 
 // Placing User Order for Frontend using stripe
 const placeOrder = async (req, res) => {
